@@ -1,0 +1,26 @@
+version: "3"
+name: "log4shell_lab"
+services:
+  # Vulnerable application
+  vul:
+    build: ./log4shell-vulnerable-app
+    hostname: my_vul
+    # Port is open (benign application)
+    ports:
+      - "8080:8080"
+  
+  # LDAP server that serves redirection to exploit server
+  ldap_server:
+    build: ./CVE-2021-44228/ldap_server
+    hostname: my_ldap_server
+  
+  # The exploit storage server
+  exploit_server:
+    hostname: my_exploit_server
+    build: ./CVE-2021-44228/exploit_server
+  
+  # # Java agent will send logs to this server via socket on port 5000
+  # monitor_server:
+  #   hostname: my_monitor_server
+  #   image: subfuzion/netcat
+  #   command: ["-k", "-v", "-l", "5000"]

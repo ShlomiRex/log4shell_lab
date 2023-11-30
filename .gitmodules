@@ -1,0 +1,6 @@
+[submodule "log4shell-vulnerable-app"]
+	path = log4shell-vulnerable-app
+	url = https://github.com/ShlomiRex/log4shell-vulnerable-app
+[submodule "CVE-2021-44228"]
+	path = CVE-2021-44228
+	url = https://github.com/ShlomiRex/CVE-2021-44228
