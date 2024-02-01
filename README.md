@@ -12,9 +12,9 @@ Then go to `vul` container and see that indeed we pwned the machine:
 
 You can watch me explain how the exploit works, and the lab setup:
 
-[![Watch the video](https://img.youtube.com/vi/WBzR30JcT5g/)](https://www.youtube.com/watch?v=WBzR30JcT5g)
+![Video explaining the lab setup](https://www.youtube.com/watch?v=WBzR30JcT5g)
 
 And you can also watch me explain the code:
 
-[![Watch the video](http://img.youtube.com/vi/oRvp0c-fa1o)](https://www.youtube.com/watch?v=oRvp0c-fa1o)
+![Video explaining the code](https://www.youtube.com/watch?v=oRvp0c-fa1o)
 
