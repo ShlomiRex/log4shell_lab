@@ -4,3 +4,6 @@
 [submodule "CVE-2021-44228"]
 	path = CVE-2021-44228
 	url = https://github.com/ShlomiRex/CVE-2021-44228
+[submodule "log4shell_javaagent_monitor"]
+	path = log4shell_javaagent_monitor
+	url = https://github.com/ShlomiRex/log4shell_javaagent_monitor
